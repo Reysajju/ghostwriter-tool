@@ -1,37 +1,13 @@
 [build]
-  # Build command - install dependencies and build Next.js client
-  command = "npm install --legacy-peer-deps && cd client && npm install --legacy-peer-deps && npm run build"
-  
-  # Directory to deploy (Next.js output)
-  publish = "client/.next"
-  
-  # Functions directory for serverless functions
-  functions = "netlify/functions"
+command = "cd client && npm install --legacy-peer-deps && npm run build"
+publish = "client/.next"
+functions = "netlify/functions"
 
 [build.environment]
-  # Node version
-  NODE_VERSION = "20"
-  
-  # Set to production for optimized builds
-  NODE_ENV = "production"
+NODE_VERSION = "20"
+NODE_ENV = "production"
 
-# Rewrite rules for API calls to functions
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/api"
-  status = 200
-
-# Environment variables (set these in Netlify dashboard)
-# NEXT_PUBLIC_SUPABASE_URL = your_supabase_url
-# NEXT_PUBLIC_SUPABASE_ANON_KEY = your_supabase_anon_key
-# SUPABASE_SERVICE_ROLE_KEY = your_service_role_key
-# BACKEND_URL = your_backend_api_url
-
-[context.production]
-  command = "npm install --legacy-peer-deps && cd client && npm install --legacy-peer-deps && npm run build"
-
-[context.preview]
-  command = "npm install --legacy-peer-deps && cd client && npm install --legacy-peer-deps && npm run build"
-
-[context.deploy-preview]
-  command = "npm install --legacy-peer-deps && cd client && npm install --legacy-peer-deps && npm run build"
+from = "/api/*"
+to = "/.netlify/functions/api"
+status = 200
