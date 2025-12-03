@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # General
 .DS_Store
 Thumbs.db
@@ -24,3 +25,31 @@ venv/
 .vscode/
 .idea/
 *.swp
+=======
+# General
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+logs/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+>>>>>>> 203a113f90e040fa36f74925daaade94739e0d14

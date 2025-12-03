@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "compilerOptions": {
     "target": "es2020",
@@ -12,3 +13,19 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
+=======
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+>>>>>>> 203a113f90e040fa36f74925daaade94739e0d14

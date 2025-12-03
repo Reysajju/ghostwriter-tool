@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version": 2,
     "builds": [
@@ -17,4 +18,25 @@
         "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
         "NEXT_PUBLIC_API_URL": "@api_url"
     }
+=======
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@vercel/next"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/$1"
+        }
+    ],
+    "env": {
+        "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
+        "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
+        "NEXT_PUBLIC_API_URL": "@api_url"
+    }
+>>>>>>> 203a113f90e040fa36f74925daaade94739e0d14
 }

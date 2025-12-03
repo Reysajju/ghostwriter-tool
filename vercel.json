@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 {
   "buildCommand": "cd client && npm install --legacy-peer-deps && npm run build",
   "outputDirectory": "client/.next",
   "devCommand": "cd client && npm run dev",
   "installCommand": "npm install --legacy-peer-deps"
 }
+=======
+{
+  "buildCommand": "cd client && npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "client/.next",
+  "devCommand": "cd client && npm run dev",
+  "installCommand": "npm install --legacy-peer-deps"
+}
+>>>>>>> 203a113f90e040fa36f74925daaade94739e0d14

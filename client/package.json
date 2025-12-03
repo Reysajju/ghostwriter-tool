@@ -27,6 +27,15 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "tailwind-merge": "^3.4.0",
+<<<<<<< HEAD
+    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.0.6"
+=======
     "typescript": "^5"
   },
   "devDependencies": {
@@ -38,5 +47,6 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.6",
     "tailwindcss": "^4"
+>>>>>>> 203a113f90e040fa36f74925daaade94739e0d14
   }
 }
