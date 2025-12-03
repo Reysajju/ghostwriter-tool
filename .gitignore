@@ -1,0 +1,27 @@
+# General
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+logs/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+push-to-github.bat
